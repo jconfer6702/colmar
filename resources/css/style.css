@@ -1,6 +1,12 @@
+body{
+  font-family: helvetica;
+  text-align: center;
+}
+
 .header{
   display:flex;
   justify-content: space-between;
+  align-items: center;
   height:64px;
 }
 li{
@@ -10,12 +16,63 @@ li{
 #links{
   display: flex;
   justify-content: space-around;
+  word-spacing:1.5rem;
 }
 .logo{
   display:flex;
   justify-content: center;
   padding-left: 24px;
+  padding-right: 24px;
 }
 h1{
-  font-family: sans-serif;
+  font-family:helvetica;
+  font-size:2rem;
+}
+/*first section*/
+.one{
+  display:flex;
+  padding-left:24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: lightgray;
+}
+.button:link{
+  text-decoration: none;
+
+}
+/*second section*/
+.two{
+  display: flex;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+ #main{
+   padding-left: 24px;
+   padding-right: 24px;
+
+}
+#date{
+  display: flex;
+  justify-content: space-around;
+  flex-direction:column;
+  flex-wrap: wrap;
+}
+
+/*third section*/
+#learning{
+
+}
+
+.three{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+.video{
+  width: 60%;
 }
