@@ -1,6 +1,6 @@
 body{
   font-family: helvetica;
-  text-align: center;
+
 }
 
 .header{
@@ -36,6 +36,13 @@ h1{
   padding-bottom: 32px;
   background-color: lightgray;
 }
+.one #banner1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+}
 .button:link{
   text-decoration: none;
 
@@ -43,7 +50,6 @@ h1{
 /*second section*/
 .two{
   display: flex;
-
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -60,19 +66,23 @@ h1{
 }
 
 /*third section*/
-#learning{
-
+.learning{
+  background-color:lightgray;
+  padding-left: 72px;
 }
-
 .three{
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
+
 }
 
+/*fourth section*/
+#te{
+  padding-top: 32px;
+}
+.exhibit{
+  display: flex;
 
-
-.video{
-  width: 60%;
 }
