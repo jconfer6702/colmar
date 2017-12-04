@@ -7,7 +7,7 @@ body{
   display:flex;
   justify-content: space-between;
   align-items: center;
-  height:64px;
+  height:4rem;
 }
 li{
   display:inline;
@@ -17,12 +17,13 @@ li{
   display: flex;
   justify-content: space-around;
   word-spacing:1.5rem;
+  padding-right: 2rem;
 }
 .logo{
   display:flex;
   justify-content: center;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 h1{
   font-family:helvetica;
@@ -47,15 +48,24 @@ h1{
   padding-left: 1.5rem;
 }
 
-#button:link, #button:visited{
-    background-color: blue;
+#button{
+    background-color:gray;
     color: white;
-    padding: 14px 25px;
+    padding: 14px 65px;
     text-align: center;
     text-decoration: none;
     display: inline-block
 
 }
+#button :visited{
+    background-color:gray;
+    color: white;
+    padding: 14px 65px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
 /*second section*/
 .two{
   display: flex;
@@ -71,6 +81,7 @@ h1{
 }
 #date{
   display:flex;
+  flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
   overflow: hidden;
@@ -79,7 +90,7 @@ h1{
 #date .picture{
 display:block;
 height:auto;
-width:35%;
+width:100%;
 padding-left: 1rem;
 }
 #date .campus{
@@ -92,7 +103,7 @@ padding-left: 1rem;
 /*third section*/
 .learning{
   background-color:lightgray;
-  padding: 32px 72px;
+  padding: 2rem 4.5rem;
 
 }
 .learning h2{
@@ -109,6 +120,7 @@ padding-left: 1rem;
 }
 .three .item{
   background-color: white;
+  margin:2rem;
 }
 .three .item h3{
   font-size: 1.5rem;
@@ -120,46 +132,29 @@ padding-left: 1rem;
   padding-left: 1rem;
   padding-bottom: 1.5rem;
   color: lightgray;
-}
-.
-/*fourth section*/
+  font-size: 1rem;
 
-#TE{
-  display: flex;
+}
+/*fourth section*/
+#thesis{
+  display:flex;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-
-#TE h2{
-  text-align: center;
+#thesis h2{
+  align-content: center;
   padding-bottom: 2rem;
 }
-.four{
-  overflow: hidden;
-  padding-left: 24px;
-  padding-right: 24px;
-  width: 60%;
-}
-.five{
+#thesis .five{
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  overflow: hidden;
+  justify-content: space-between;
   flex-direction: column;
-  
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
-.five .fisma{
-  display:block;
-  height:auto;
-  width:35%;
-  padding-left: 1rem;
-}
-.five .now{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-flex-direction: column;
-}
+
+
+
 
 /*footer*/
 footer{
