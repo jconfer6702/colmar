@@ -36,15 +36,23 @@ h1{
   padding-bottom: 32px;
   background-color: lightgray;
 }
+#banner{
+  padding-right: 24px;
+}
 .one #banner1{
   display: flex;
   justify-content: center;
   align-items: center;
-
+  flex-direction: column;
 }
 }
-.button:link{
-  text-decoration: none;
+#button:link, #button:visited{
+    background-color: blue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block
 
 }
 /*second section*/
@@ -67,8 +75,9 @@ h1{
 }
 .orientation{
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /*third section*/
