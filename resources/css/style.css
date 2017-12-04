@@ -63,6 +63,12 @@ h1{
   justify-content: space-around;
   flex-direction:column;
   flex-wrap: wrap;
+  border-left: solid 1px gray;
+}
+.orientation{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /*third section*/
