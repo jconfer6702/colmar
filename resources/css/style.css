@@ -38,6 +38,7 @@ h1{
 }
 #banner{
   padding-right: 24px;
+  width:60%;
 }
 .one #banner1{
   display: flex;
@@ -83,7 +84,11 @@ h1{
 /*third section*/
 .learning{
   background-color:lightgray;
-  padding-left: 72px;
+  padding-top: 32px;
+}
+.learning h2{
+  text-align: center;
+  padding-bottom: 32px;
 }
 .three{
   display: flex;
@@ -94,8 +99,11 @@ h1{
 }
 
 /*fourth section*/
-#te{
+#TE{
   padding-top: 32px;
+}
+#TE h2{
+  text-align: center;
 }
 .exhibit{
   display: flex;
