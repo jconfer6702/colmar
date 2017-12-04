@@ -44,6 +44,7 @@ h1{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-left: 1.5rem;
 }
 }
 #button:link, #button:visited{
@@ -75,7 +76,7 @@ h1{
   overflow: hidden;
   border-left: solid 1px gray;
 }
-#date .orientation{
+#date .picture{
 display:block;
 width:100%;
 }
