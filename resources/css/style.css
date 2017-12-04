@@ -59,8 +59,8 @@ h1{
 /*second section*/
 .two{
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 
 }
  #main{
@@ -123,29 +123,44 @@ padding-left: 1rem;
 }
 .
 /*fourth section*/
+
 #TE{
+  display: flex;
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
+
 #TE h2{
   text-align: center;
   padding-bottom: 2rem;
 }
-.exhibit{
-  display: flex;
-  padding-right: 1.5rem;
-}
-#video{
-
+.four{
+  overflow: hidden;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 60%;
 }
 .five{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   overflow: hidden;
+  flex-direction: column;
+  
 }
- .bk{
-  background-color: gray;
+.five .fisma{
+  display:block;
+  height:auto;
+  width:35%;
+  padding-left: 1rem;
 }
+.five .now{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+flex-direction: column;
+}
+
 /*footer*/
 footer{
   display: flex;
