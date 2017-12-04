@@ -31,13 +31,12 @@ h1{
 /*first section*/
 .one{
   display:flex;
-  padding-left:24px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 0 1.5rem;
   background-color: lightgray;
 }
 #banner{
-  padding-right: 24px;
+  overflow: hidden;
+  padding: 2rem 1.5rem;
   width:60%;
 }
 .one #banner1{
@@ -61,20 +60,26 @@ h1{
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
-}
- #main{
-   padding-left: 24px;
-   padding-right: 24px;
 
 }
+ #main{
+   overflow: hidden;
+   padding-left: 24px;
+   padding-right: 24px;
+   width: 60%;
+}
 #date{
-  display: flex;
+  display:flex;
   justify-content: space-around;
-  flex-direction:column;
   flex-wrap: wrap;
+  overflow: hidden;
   border-left: solid 1px gray;
 }
-.orientation{
+#date .orientation{
+display:block;
+width:100%;
+}
+#date #campus{
   display: flex;
   justify-content: center;
   align-items: center;
