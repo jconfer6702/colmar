@@ -43,15 +43,23 @@ h1{
 .one #banner1{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:flex-start;
   flex-direction: column;
   padding-left: 1.5rem;
-}
 
+}
+#banner1 h2{
+  font-size: 4rem;
+  font-weight: bold;
+}
+#banner1 h3{
+  font-size: 2rem;
+  font-weight: lighter;
+}
 #button{
-    background-color:gray;
+    background-color:darkgray;
     color: white;
-    padding: 14px 65px;
+    padding: 1rem 10rem;
     text-align: center;
     text-decoration: none;
     display: inline-block
@@ -60,7 +68,7 @@ h1{
 #button :visited{
     background-color:gray;
     color: white;
-    padding: 14px 65px;
+    padding: 1rem 10rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -81,15 +89,23 @@ h1{
   width:100%;
 }
 .main h2{
+  font-size: 3rem;
+  font-weight: bold;
   padding-bottom: 2rem;
 }
-#date{
+.main p{
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: lightgray;
+}
+.two #date{
   display:flex;
   flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
   overflow: hidden;
   border-left: solid 1px gray;
+  border-bottom: solid 1px gray;
 }
 #date .picture{
 display:block;
@@ -107,24 +123,26 @@ padding-left: 1rem;
 /*third section*/
 .learning{
   background-color:lightgray;
-  padding: 2rem 4.5rem;
+  padding: 2rem 2rem;
 
 }
 .learning h2{
+  font-size: 4rem;
+  font-weight: bold;
   text-align: center;
-  padding-bottom: 32px;
+  padding-bottom: 2rem;
 }
 .three{
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
-  padding:1rem;
+  padding:.5rem;
 
 }
 .three .item{
   background-color: white;
-  margin:2rem;
+  margin:1rem;
 
 }
 .three .item h3{
