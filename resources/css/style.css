@@ -98,9 +98,8 @@ h1{
   font-weight: normal;
   color: lightgray;
 }
-.two #date{
+ #date{
   display:flex;
-  flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
   overflow: hidden;
@@ -108,7 +107,8 @@ h1{
   border-bottom: solid 1px gray;
 }
 #date .picture{
-display:block;
+display:flex;
+flex-direction: column;
 height:auto;
 width:35%;
 padding-left: 1rem;
@@ -118,8 +118,8 @@ padding-left: 1rem;
   justify-content:flex-end;
   align-items: center;
   flex-direction: column;
+  width: 65%;
 }
-
 /*third section*/
 .learning{
   background-color:lightgray;
@@ -165,8 +165,9 @@ padding-left: 1rem;
   padding-bottom: 2rem;
 }
 #thesis h2{
-  align-text: center;
+  text-align: center;
   padding-bottom: 2rem;
+  font-size: 3rem;
 }
 #thesis .five{
   display: flex;
