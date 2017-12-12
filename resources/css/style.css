@@ -212,18 +212,18 @@ padding: 1rem;
   flex-direction: column;
   justify-content: space-around;
 }
-#parent{
+.parent{
   display: flex;
   padding:1rem;
 }
-#parent .fisma{
+.parent .fisma{
   display:flex;
   overflow: hidden;
   height:auto;
   width:35%;
   padding: 1rem;
 }
-#parent .now{
+.parent .now{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -239,7 +239,7 @@ padding: 1rem;
 .now p{
   padding-left:  2rem;
 }
-#background #parent{
+#background-color .parent{
   background-color: lightgray;
   padding: 1rem;
 }
