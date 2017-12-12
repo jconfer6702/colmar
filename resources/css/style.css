@@ -9,14 +9,19 @@ body{
   align-items: center;
   height:4rem;
 }
+.header span{
+  color:gray;
+  font-weight: lighter;
+}
 li{
   display:inline;
-  list-style: none;
+  list-style:none;
+  padding-left: 1rem;
 }
 #links{
   display: flex;
   justify-content: space-around;
-  word-spacing:1.5rem;
+
   padding-right: 2rem;
 }
 .logo{
@@ -107,10 +112,11 @@ h1{
 }
 .content-image{
   display: flex;
-  border-bottom-color: solid 2px gray;
+  border-bottom-color: solid 2px lightgray;
 }
  .picture{
 display:flex;
+overflow: hidden;
 height:auto;
 width:35%;
 padding: 1rem;
@@ -119,10 +125,20 @@ padding: 1rem;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  align-items: center;
+
   flex-wrap: wrap;
   width: 65%;
   padding: .5rem;
+}
+.campus h3{
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 2rem;
+}
+.campus p{
+  text-align: left;
+  padding-left: 2rem;
 }
 #background .content-image{
   background-color: lightgray;
@@ -167,7 +183,6 @@ padding: 1rem;
 }
 /*fourth section*/
 #thesis{
-
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -180,8 +195,13 @@ padding: 1rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+.four h3{
+  font-size: 2rem;
+}
 .four p{
   width: 60%;
+  color: lightgray;
+  font-size: 1rem;
 }
 #container{
   display: flex;
@@ -198,6 +218,7 @@ padding: 1rem;
 }
 #parent .fisma{
   display:flex;
+  overflow: hidden;
   height:auto;
   width:35%;
   padding: 1rem;
@@ -205,13 +226,22 @@ padding: 1rem;
 #parent .now{
   display: flex;
   flex-direction: column;
-  align-items: center;
   flex-wrap: wrap;
   width: 65%;
   padding: .5rem;
 }
+.now h3{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align:left;
+  padding-left: 2rem;
+}
+.now p{
+  padding-left:  2rem;
+}
 #background #parent{
   background-color: lightgray;
+  padding: 1rem;
 }
 
 /*footer*/
