@@ -98,27 +98,34 @@ h1{
   font-weight: normal;
   color: lightgray;
 }
- #date{
+ #date {
   display:flex;
+  flex-direction: column;
   justify-content: space-around;
-  flex-wrap: wrap;
-  overflow: hidden;
   border-left: solid 1px gray;
-  border-bottom: solid 1px gray;
+
 }
-#date .picture{
+.content-image{
+  display: flex;
+  border-bottom-color: solid 2px gray;
+}
+ .picture{
 display:flex;
-flex-direction: column;
 height:auto;
 width:35%;
-padding-left: 1rem;
+padding: 1rem;
 }
-#date .campus{
+ .campus{
   display: flex;
-  justify-content:flex-end;
-  align-items: center;
+  justify-content: flex-start;
   flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
   width: 65%;
+  padding: .5rem;
+}
+#background .content-image{
+  background-color: lightgray;
 }
 /*third section*/
 .learning{
@@ -160,22 +167,53 @@ padding-left: 1rem;
 }
 /*fourth section*/
 #thesis{
-  display:flex;
+
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 #thesis h2{
   text-align: center;
-  padding-bottom: 2rem;
   font-size: 3rem;
 }
-#thesis .five{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+.four video{
+  overflow: hidden;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+.four p{
+  width: 60%;
+}
+#container{
+  display: flex;
+}
+
+.five{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#parent{
+  display: flex;
+  padding:1rem;
+}
+#parent .fisma{
+  display:flex;
+  height:auto;
+  width:35%;
+  padding: 1rem;
+}
+#parent .now{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 65%;
+  padding: .5rem;
+}
+#background #parent{
+  background-color: lightgray;
+}
+
 /*footer*/
 footer{
   display: flex;
